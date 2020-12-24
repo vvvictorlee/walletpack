@@ -1,8 +1,8 @@
 {
-  "name": "@walletpack/roxe",
-  "version": "0.0.64",
+  "name": "roxewalletpack",
+  "version": "0.0.77",
   "description": "> TODO: description",
-  "author": "GetScatter Ltd. 2019",
+  "author": "victorlee2020",
   "homepage": "",
   "license": "ISC",
   "main": "roxe.js",
@@ -19,7 +19,7 @@
     "roxejs": "^1.0.4",
     "roxejs-ecc": "^1.0.0"
   },
-  "gitHead": "70bd19f93b503618a79eb519eef082bfc40b16d7",
+  "gitHead": "",
   "publishConfig": {
     "access": "public"
   }
