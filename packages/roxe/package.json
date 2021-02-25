@@ -1,6 +1,6 @@
 {
   "name": "@vvvictorlee2020/roxe",
-  "version": "0.0.78",
+  "version": "0.0.79",
   "description": "> TODO: description",
   "author": "victorlee2020",
   "homepage": "",
@@ -15,7 +15,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@vvvictorlee2020/core": "^1.0.51",
+    "@vvvictorlee2020/core": "^1.0.56",
     "roxejs": "^1.0.4",
     "roxejs-ecc": "^1.0.0"
   },
