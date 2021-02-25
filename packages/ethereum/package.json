@@ -1,6 +1,6 @@
 {
   "name": "@vvvictorlee2020/ethereum",
-  "version": "0.0.62",
+  "version": "0.0.63",
   "description": "> TODO: description",
   "author": "GetScatter Ltd. 2019",
   "homepage": "",
@@ -15,7 +15,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@vvvictorlee2020/core": "^1.0.51",
+    "@vvvictorlee2020/core": "^1.0.56",
     "ethereumjs-tx": "^2.1.0",
     "ethereumjs-util": "^6.1.0",
     "web3": "^1.2.0",
