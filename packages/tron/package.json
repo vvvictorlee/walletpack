@@ -1,6 +1,6 @@
 {
   "name": "@vvvictorlee2020/tron",
-  "version": "0.0.64",
+  "version": "0.0.65",
   "description": "> TODO: description",
   "author": "GetScatter Ltd. 2019",
   "homepage": "",
@@ -15,7 +15,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@vvvictorlee2020/core": "^1.0.51",
+    "@vvvictorlee2020/core": "^1.0.56",
     "elliptic": "^6.5.2",
     "ethereumjs-util": "^6.1.0",
     "tronweb": "^2.8.0"
