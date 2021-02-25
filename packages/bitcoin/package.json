@@ -1,6 +1,6 @@
 {
   "name": "@vvvictorlee2020/bitcoin",
-  "version": "1.0.59",
+  "version": "1.0.60",
   "description": "> TODO: description",
   "author": "GetScatter Ltd. 2019",
   "homepage": "",
@@ -15,7 +15,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@vvvictorlee2020/core": "^1.0.51",
+    "@vvvictorlee2020/core": "^1.0.56",
     "bitcoinjs-lib": "^5.1.2"
   },
   "gitHead": "70bd19f93b503618a79eb519eef082bfc40b16d7",
