@@ -1,6 +1,6 @@
 {
   "name": "@vvvictorlee2020/eosio",
-  "version": "0.0.66",
+  "version": "0.0.67",
   "description": "> TODO: description",
   "author": "GetScatter Ltd. 2019",
   "homepage": "",
@@ -15,7 +15,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@vvvictorlee2020/core": "^1.0.51",
+    "@vvvictorlee2020/core": "^1.0.56",
     "eosjs": "^21.0.3",
     "eosjs-ecc": "^4.0.7"
   },
