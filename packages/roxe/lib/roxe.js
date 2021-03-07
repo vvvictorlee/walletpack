@@ -1,20 +1,20 @@
-import Plugin from                  '@walletpack/core/plugins/Plugin';
-import * as PluginTypes from        '@walletpack/core/plugins/PluginTypes';
-import {Blockchains} from           '@walletpack/core/models/Blockchains'
-import Network from                 '@walletpack/core/models/Network'
-import Account from                 '@walletpack/core/models/Account'
-import KeyPairService from          '@walletpack/core/services/secure/KeyPairService'
-import ObjectHelpers from           '@walletpack/core/util/ObjectHelpers'
-import * as Actions from            '@walletpack/core/models/api/ApiActions';
-import * as StoreActions from       '@walletpack/core/store/constants'
-import Token from                   "@walletpack/core/models/Token";
-import AccountAction from           "@walletpack/core/models/AccountAction";
-import AccountService from          "@walletpack/core/services/blockchain/AccountService";
-import HistoricAction from          "@walletpack/core/models/histories/HistoricAction";
-import StoreService from            "@walletpack/core/services/utility/StoreService";
-import EventService from            "@walletpack/core/services/utility/EventService";
-import SigningService from          "@walletpack/core/services/secure/SigningService";
-import {POST} from                  "@walletpack/core/services/apis/BackendApiService";
+import Plugin from                  '@vvvictorlee2020/core/plugins/Plugin';
+import * as PluginTypes from        '@vvvictorlee2020/core/plugins/PluginTypes';
+import {Blockchains} from           '@vvvictorlee2020/core/models/Blockchains'
+import Network from                 '@vvvictorlee2020/core/models/Network'
+import Account from                 '@vvvictorlee2020/core/models/Account'
+import KeyPairService from          '@vvvictorlee2020/core/services/secure/KeyPairService'
+import ObjectHelpers from           '@vvvictorlee2020/core/util/ObjectHelpers'
+import * as Actions from            '@vvvictorlee2020/core/models/api/ApiActions';
+import * as StoreActions from       '@vvvictorlee2020/core/store/constants'
+import Token from                   "@vvvictorlee2020/core/models/Token";
+import AccountAction from           "@vvvictorlee2020/core/models/AccountAction";
+import AccountService from          "@vvvictorlee2020/core/services/blockchain/AccountService";
+import HistoricAction from          "@vvvictorlee2020/core/models/histories/HistoricAction";
+import StoreService from            "@vvvictorlee2020/core/services/utility/StoreService";
+import EventService from            "@vvvictorlee2020/core/services/utility/EventService";
+import SigningService from          "@vvvictorlee2020/core/services/secure/SigningService";
+import {POST} from                  "@vvvictorlee2020/core/services/apis/BackendApiService";
 import ecc from 'roxejs-ecc';
 import { Api, JsonRpc } from 'roxejs';
 import * as numeric from "roxejs/dist/roxejs-numeric";
@@ -818,7 +818,7 @@ export default class ROXE extends Plugin {
 
 		if(getABIsFromBackend && !fallbackToChain){
 			const abis = await Promise.race([
-				POST(`walletpack/abis`, {network, accounts:contracts}).catch(() => null),
+				POST(`@vvvictorlee2020/abis`, {network, accounts:contracts}).catch(() => null),
 				new Promise(r => setTimeout(() => r(null), 2000)),
 			]);
 			if(!abis || !abis.length !== contracts.length) return this.fetchAbis(network, contracts, true);

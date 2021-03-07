@@ -1,13 +1,16 @@
 {
-  "name": "walletpack",
-  "private": false,
+  "name": "vvvictorlee2020",
+  "private": true,
+ "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "postinstall": "lerna bootstrap",
     "build": "lerna exec -- babel --config-file ../../babel.config.js --out-dir dist lib && node scripts/copy-files",
     "links": "lerna exec -- yarn link",
     "publish": "node ./scripts/prepublish.js && lerna publish",
-    "publish1": "lerna publish",
-    "testfile": "cross-env WALLETPACK_TESTING=true mocha --require @babel/register --require @babel/polyfill --exit --timeout 1000000",
+    "init": "lerna init --independent",
+    "testfile": "cross-env @vvvictorlee2020/TESTING=true mocha --require @babel/register --require @babel/polyfill --exit --timeout 1000000",
     "test": "npm run testfile \"./packages/**/__tests__/**/*.test.js\"",
     "pack": "webpack-cli --mode=production --display-error-details"
   },

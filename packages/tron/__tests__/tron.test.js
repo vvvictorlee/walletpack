@@ -1,10 +1,10 @@
 // 'use strict';
 //
-// import Account from "@walletpack/core/lib/models/Account";
-// import Network from "@walletpack/core/lib/models/Network";
-// import Keypair from "@walletpack/core/lib/models/Keypair";
-// import {Blockchains} from "@walletpack/core/lib/models/Blockchains";
-// import Token from "@walletpack/core/lib/models/Token";
+// import Account from "@vvvictorlee2020/core/lib/models/Account";
+// import Network from "@vvvictorlee2020/core/lib/models/Network";
+// import Keypair from "@vvvictorlee2020/core/lib/models/Keypair";
+// import {Blockchains} from "@vvvictorlee2020/core/lib/models/Blockchains";
+// import Token from "@vvvictorlee2020/core/lib/models/Token";
 //
 // const tron = new (require('../lib/tron').default)();
 //

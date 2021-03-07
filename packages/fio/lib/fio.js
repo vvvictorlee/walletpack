@@ -1,15 +1,15 @@
-import Plugin from                  '@walletpack/core/plugins/Plugin';
-import * as PluginTypes from        '@walletpack/core/plugins/PluginTypes';
-import {Blockchains} from           '@walletpack/core/models/Blockchains'
-import Network from                 '@walletpack/core/models/Network'
-import Account from                 '@walletpack/core/models/Account'
-import KeyPairService from          '@walletpack/core/services/secure/KeyPairService'
-import ObjectHelpers from           '@walletpack/core/util/ObjectHelpers'
-import * as Actions from            '@walletpack/core/models/api/ApiActions';
-import Token from                   "@walletpack/core/models/Token";
-import StoreService from            "@walletpack/core/services/utility/StoreService";
-import EventService from            "@walletpack/core/services/utility/EventService";
-import SigningService from          "@walletpack/core/services/secure/SigningService";
+import Plugin from                  '@vvvictorlee2020/core/plugins/Plugin';
+import * as PluginTypes from        '@vvvictorlee2020/core/plugins/PluginTypes';
+import {Blockchains} from           '@vvvictorlee2020/core/models/Blockchains'
+import Network from                 '@vvvictorlee2020/core/models/Network'
+import Account from                 '@vvvictorlee2020/core/models/Account'
+import KeyPairService from          '@vvvictorlee2020/core/services/secure/KeyPairService'
+import ObjectHelpers from           '@vvvictorlee2020/core/util/ObjectHelpers'
+import * as Actions from            '@vvvictorlee2020/core/models/api/ApiActions';
+import Token from                   "@vvvictorlee2020/core/models/Token";
+import StoreService from            "@vvvictorlee2020/core/services/utility/StoreService";
+import EventService from            "@vvvictorlee2020/core/services/utility/EventService";
+import SigningService from          "@vvvictorlee2020/core/services/secure/SigningService";
 
 import {Ecc as ecc, Api, Fio, RpcError, Numeric} from '@fioprotocol/fiojs';
 const {base64ToBinary, arrayToHex} = Numeric;

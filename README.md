@@ -10,14 +10,14 @@ Currently being used in Scatter Desktop, Scatter Mobile, and Scatter Bridge.
 
 Install the core plus any blockchains you want to support
 ```
-npm i -S @walletpack/core @walletpack/eosio @walletpack/ethereum @walletpack/bitcoin @walletpack/tron
+npm i -S @vvvictorlee2020/core @vvvictorlee2020/eosio @vvvictorlee2020/ethereum @vvvictorlee2020/bitcoin @vvvictorlee2020/tron
 ```
 
 ### Call initialize first.
 
 ```js
 
-import WalletPack from '@walletpack/core';
+import WalletPack from '@vvvictorlee2020/core';
 
 const eventListener = (type, data) => {
     console.log('event', type, data);
@@ -39,10 +39,10 @@ WalletPack.initialize(
 			BTC:'btc',
 		},
 		plugins:[
-			require('@walletpack/eosio').default,
-			require('@walletpack/ethereum').default,
-			// require('@walletpack/tron').default,
-			require('@walletpack/bitcoin').default,
+			require('@vvvictorlee2020/eosio').default,
+			require('@vvvictorlee2020/ethereum').default,
+			// require('@vvvictorlee2020/tron').default,
+			require('@vvvictorlee2020/bitcoin').default,
 		]
 	},
     // --------------------------------------------

@@ -9,7 +9,7 @@ import Keypair from "../../core/lib/models/Keypair";
 import PluginRepository from "../../core/lib/plugins/PluginRepository";
 import StoreService from "../../core/lib/services/utility/StoreService";
 import KeyPairService from "../../core/lib/services/secure/KeyPairService";
-import Network from "@walletpack/core/lib/models/Network";
+import Network from "@vvvictorlee2020/core/lib/models/Network";
 
 const {assert} = require('chai');
 require('isomorphic-fetch');

@@ -43,6 +43,6 @@ module.exports = {
 	// devtool: false,
 	devtool: 'inline-source-map',
 	externals: {
-		'@walletpack/core': 'WalletPack'
+		'@vvvictorlee2020/core': 'WalletPack'
 	}
 }

@@ -1,5 +1,5 @@
-import Token from "@walletpack/core/models/Token";
-import {Blockchains} from "@walletpack/core/models/Blockchains";
+import Token from "@vvvictorlee2020/core/models/Token";
+import {Blockchains} from "@vvvictorlee2020/core/models/Blockchains";
 
 
 let networks, hosts;
